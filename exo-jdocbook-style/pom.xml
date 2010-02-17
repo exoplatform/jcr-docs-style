@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+   <modelVersion>4.0.0</modelVersion>
+
+   <groupId>org.exoplatform.doc</groupId>
+   <artifactId>exo-jdocbook-style</artifactId>
+   <packaging>jdocbook-style</packaging>
+   
+   <parent>
+      <groupId>org.exoplatform.doc</groupId>
+      <artifactId>parent</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+   </parent>
+   
+   <name>eXoJCR - Documentation Styles</name>
+   <description>
+      The JDocBook styles for the eXoJCR Documentation.
+   </description>
+   
+   <contributors>
+      <contributor>
+         <name>Pete Muir</name>
+      </contributor>
+      <contributor>
+         <name>Mark Newton</name>
+      </contributor>
+      <contributor>
+         <name>Thomas Heute</name>
+      </contributor>
+   </contributors>
+   
+   <build>
+      <plugins>
+         <plugin>
+            <groupId>org.jboss.maven.plugins</groupId>
+            <artifactId>maven-jdocbook-style-plugin</artifactId>
+            <version>1.0.0</version>
+            <extensions>true</extensions>
+         </plugin>
+      </plugins>
+
+      <extensions>
+         <extension>
+            <groupId>org.apache.maven.wagon</groupId>
+            <artifactId>wagon-webdav</artifactId>
+            <version>1.0-beta-2</version>
+         </extension>
+      </extensions>
+   </build>
+
+
+</project>
