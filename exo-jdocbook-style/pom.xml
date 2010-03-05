@@ -17,18 +17,6 @@
       The JDocBook styles for the eXoJCR Documentation.
    </description>
    
-   <contributors>
-      <contributor>
-         <name>Pete Muir</name>
-      </contributor>
-      <contributor>
-         <name>Mark Newton</name>
-      </contributor>
-      <contributor>
-         <name>Thomas Heute</name>
-      </contributor>
-   </contributors>
-   
    <build>
       <plugins>
          <plugin>
@@ -47,6 +35,4 @@
          </extension>
       </extensions>
    </build>
-
-
 </project>
