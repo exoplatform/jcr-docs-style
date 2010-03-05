@@ -18,19 +18,6 @@
       eXoJCR Documentation.
    </description>
 
-   <contributors>
-      <contributor>
-         <name>Pete Muir</name>
-      </contributor>
-      <contributor>
-         <name>Mark Newton</name>
-      </contributor>
-      <contributor>
-         <name>Thomas Heute</name>
-      </contributor>
-   </contributors>
-
-
   <dependencies>
     <dependency>
       <groupId>net.sf.docbook</groupId>
@@ -43,7 +30,6 @@
       <version>1.0.0</version>
     </dependency>
   </dependencies>
-
 
    <build>
       <extensions>
