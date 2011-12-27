@@ -13,8 +13,8 @@
                 xmlns:fo="http://www.w3.org/1999/XSL/Format"
                 exclude-result-prefixes="#default">
 
-   <xsl:import href="classpath:/xslt/org/jboss/pdf.xsl"/>
-   <xsl:import href="common.xsl"/>
+   <xsl:import href="classpath:xslt/org/jboss/pdf.xsl"/>
+   <xsl:import href="classpath:common.xsl"/>
       
    <xsl:param name="callout.graphics.extension">.svg</xsl:param>
 
