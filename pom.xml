@@ -13,6 +13,11 @@
    <name>eXoJCR - Doc Style</name>
    <version>3-SNAPSHOT</version>
    
+   <properties>
+     <version.release.plugin>2.2.1</version.release.plugin>
+     <version.buildnumber.plugin>1.0</version.buildnumber.plugin>
+   </properties>
+
    <scm>
       <connection>scm:git:ssh://github.com/exodev/jcr-docs-style.git</connection>
       <developerConnection>scm:git:ssh://github.com/exodev/jcr-docs-style.git</developerConnection>
