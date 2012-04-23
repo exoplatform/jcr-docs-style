@@ -19,8 +19,8 @@
    </properties>
 
    <scm>
-      <connection>scm:git:ssh://github.com/exodev/jcr-docs-style.git</connection>
-      <developerConnection>scm:git:ssh://github.com/exodev/jcr-docs-style.git</developerConnection>
+      <connection>scm:git:git://github.com/exoplatform/jcr-docs-style.git</connection>
+      <developerConnection>scm:git:git@github.com/exoplatform/jcr-docs-style.git</developerConnection>
       <url>http://fisheye.jboss.org/browse/exo-jcr/docs-style</url>
    </scm>
    
